@@ -1,0 +1,256 @@
+
+PYTHON- 
+
+
+PYCHARM - editor 
+Google Colab
+
+variaveis 
+operadores
+opreacoes de entrada e saida.
+
+
+tipos de dados 
+
+numericos decimal ou inteiro
+
+
+caracteres
+
+
+Logicos
+
+
+STR- TEXT
+INT-NUMERO INTEIRO
+FLOAT- DECIMA
+BOOL- TRUE E FALSE  
+
+
+
+TIPOS DE DADOS NUMERICOS
+NUMEROS NATURAIS   1
+NUMEROS INTEIROS  -3
+NUMEROS RACIONAIS  2/5
+NUMEROS REAIS 
+NUMEROS COMPLEXOS
+
+
+
+
+TIPOS DE CARACTER
+TABELA ASCII
+CASE SENSITIVE- SENSIVEL AO TAMANHO DA LETRA
+
+ele armazena de maneira indez cada letra 
+tem uma posicao dentro do texto  
+print posicao 0 mostra so uma letra  
+str é o texto  
+
+
+TIPO LOGICO 
+verdadeiro ou falso
+
+variaveis ;
+identificacao; 
+endereço;
+tipo; 
+tamanho; 
+valor ;
+
+durante o programa vamos armazenar dados 
+eles tem que ter variaveis,  e apartir dessas 
+informaçoes precisamos da chamada variavel;
+
+nome= 'bob'
+idade= '32'
+voce é feliz= true
+
+print(nome)
+aparece na tela BOB
+
+numeros nao recebem aspas 
+apenas a string ou str;
+
+
+ano=2024
+anona=1990
+
+ano-anona
+resultado= idade correta
+
+
+constantes
+declarar a variavel e colocar um comentario
+constantes nao mudam o seu resultado ou seja
+uma constante é algo que é exato;
+
+
+nomeclatura de variaveis
+
+
+palavras reservadas
+
+fals 
+class
+finally
+is
+return 
+none 
+continue 
+for 
+lambda
+try 
+true 
+def
+from
+nonlocal
+while
+and 
+del 
+global
+not 
+with 
+as 
+elif 
+if
+or 
+yield
+asssert 
+else
+import 
+passa
+break 
+except
+in
+raise
+
+
+essas sao as palabras resevadas 
+uma variavel nao se recomenda começar com letra
+Maiscula 
+lugar do espaço usamos o _
+
+# hastag cria comentario;
+
+
+maneiras de declarar variaveis  
+recomendaçoes começar com letra minuscula 
+e a segunda palabra coloca letra maiscula ou 
+(underline)
+nome = 'Luydi' #texto obrigatorio aspas ou aspas duplas
+#variavel nome recebe Luydi
+idade = 33
+#variavel idade recebe 33 
+anoNascimento = 1990
+#variavel anoNascimento
+curso = 'Python' #texto obrigatorio aspas ou aspas duplas
+#variavel curso recebe Python
+
+
+
+
+control+ barra coloca comentario ou
+usando o HASTAG 
+
+
+
+CONTROL +SHIFT+f10 segurar duas juntos
+abre o terminal 
+
+print = imprimir na tela do usuario
+
+nesse caso no terminal vou executar sempre control
++shift +f10 
+ele abre no terminal exatamente o que quero 
+imprimir na tela  
+
+
+entao se abro aspas tenho que fechar
+usamos a virgula para separar o que abri em 
+aspas e separar do que quero imprimir na tela.
+
+
+as linhas embaixo do texto demonstram 
+se o programa esta com algum problema de codigo
+e diz exatamente pelas cores, verde, vermelho e 
+amarelo.
+
+LIÇAO AULA 1
+
+
+
+
+nome = 'Luydi' #texto obrigatorio aspas ou aspas duplas
+#variavel nome recebe Luydi
+idade = 33
+#variavel idade recebe 33
+anoNascimento = 1990
+#variavel anoNascimento
+curso = 'Python' #texto obrigatorio aspas ou aspas duplas
+#variavel curso recebe Python
+
+print('O nome da pessoa é:',nome)
+print('A idade da pessoa é:',idade)
+print('O ano de nascimento da pessoa é:',anoNascimento)
+print('O curso que a pessoa esta estudando é:',curso)
+
+LIÇAO AULA 1.2
+
+texto= "2" #declaração de variavel string
+texto1= (2) #declaração de variavel do tipo string
+numero= 3 #declaração de variavel numerica, podendo ser Inteira ou Real
+numero1= int(3) #declaração de variavel numerica, do tipo inteiro
+numero2= float(3) #declaração de variavel numerica, do tipo Real
+print(texto)
+
+
+
+#aqui temos as regras de somas
+n1= 4
+n2= 2
+#sempre temos que declarar a variavel
+#Operador de soma
+soma= n1+n2
+print(soma)
+#Operador de subtração
+subtracao = n1-n2
+print(subtracao)
+#Operador de multiplicação
+multiplicacao = n1*n2
+print (multiplicacao)
+#Operador de divisão
+divisao = n1 / n2
+print(divisao)
+
+
+INPUT VEM DO INGLES - ENTRADA
+
+
+
+
+criar um programa 
+para usuario digitar a soma de dois valores
+
+
+
+crie um programa para efetuar a leitura de um numero inteiro e apresentar o resultado do quadrado deste numero.
+
+
+# Solicita ao usuário que insira um número inteiro
+numero = int(input("Digite um número inteiro: "))
+
+# Calcula o quadrado do número
+quadrado = numero ** 2
+
+# Exibe o resultado
+print(f"O quadrado de {numero} é {quadrado}.")
+
+
+
+
+
+
+
+
+
