@@ -470,9 +470,71 @@ print(f"O quadrado de {numero} é {quadrado}.")
 
 
 
+#para receber um valor eu uso (=)
+# verificar se os numeros sao iguais, retorna verdadeiro ou falso (==)
+#se for numeros iguais ele retorna True
+#se for numeros diferentes retorna false
+#se for != (mostra se os valores sao diferentes)
 
 
+DESAFIO 22
+Crie um programa que leia o nome completo de uma pessoas e
+mostre
+O nome com todas as letras maiúsculas
+O nome com todas as letras minúsculas
+Quantas letras ao todo (sem considerar espaços)
+Quantas letras tem o primeiro nome
 
+1
 
+DESAFIOS
+
+DESAFIO 23
+Faça um programa que leia um numero de 0 a 9999 e mostre
+na tela cada um dos dígitos separados.
+
+Ex: Digite um numero: 1834
+
+Unidade: 4
+Dezena: 3
+Centena: 8
+Milhar: 1
+
+2
+
+DESAFIOS
+
+DESAFIO 24
+Crie um programa que leia o nome de uma cidade e diga se ela
+começa ou não com o nome "Santo“.
+
+DESAFIO 25
+Crie um programa que leia o nome de uma pessoa e diga se
+ela tem "Silva" no nome
+
+3
+
+DESAFIOS
+
+DESAFIO 26
+Faça um programa que leia uma frase pelo teclado e mostre:
+
+Quantas vezes aparece a letra "A"
+Em que posição ela aparece a primeira vez
+Em que posição ela aparece a ultima vez
+
+4
+
+DESAFIOS
+
+DESAFIO 27
+Faça um programa que leia o nome completo de uma pessoa,
+mostrando em seguida o primeiro e o ultimo nome
+separadamente
+
+Exemplo: Ana Maria De Souza
+
+Primeiro: Ana
+Ultimo: Souza
 
 
