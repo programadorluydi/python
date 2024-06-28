@@ -35,6 +35,228 @@ NUMEROS RACIONAIS  2/5
 NUMEROS REAIS 
 NUMEROS COMPLEXOS
 
+texto = " curso De Python "
+print(texto[6])
+print(texto[9:15])
+#9:15:2 quer dize que o começo é o 9. o fim é o 15 e o 2 separa os dois valores ou SALTO
+print(texto[9:15:2])
+#POSICAO 0 espaço posiçao dois u e posicao 2 r e posicao 4 S
+print(texto[:5])
+print(texto[9:])
+
+#comando len permite que a gente conte o tamanho do texto
+print(len(texto))
+#pode usar para verificar o tamanho e usar da melhor forma
+#esse comando tras um valor numerico
+#depois que salvar isso é possivel somar com outra coisa
+#count faz contas aparece a letra que eu quero buscar
+print(texto.count('o'))
+print(texto.find("Python"))
+print ('python in',texto)
+
+
+#transformacao de string
+print(texto.replace("Python", "Javascript"))
+#nessa transformacao replace mudamos o nome da variavel por uma nova
+print(texto.upper())
+#print upper deixa todas as letras maisculas do texto a chave fica vazia
+print(texto.lower())
+#print lower deixa todas as letras minusculas do texto a chave tambem fica vazia
+print(texto.capitalize())
+#print capitalize converte a primeira letra da frase em maiuscula
+print(texto.title())
+#print title deixa a primeira letra de cada frase em maisculo
+
+#remove os espaços inuteis da frase
+print(texto.strip())
+#remove os espaços da direita da frase
+print(texto.rstrip())
+#remove os espaços a esquerda da frase
+print(texto.lstrip())
+
+#find localiza aonde começa a palavra
+#rfind pede para achar a letra da direita para a esquerda
+
+#Divisao e junçao de string
+#junta todos os caracteres e os separa por um delimitador
+print('-'.join(texto))
+#divide cada palavra e armazena ela dentro de um array
+print(texto.split())
+#array é uma lista é possivel dividir o texto
+
+
+# Exercicio 1
+#Solicita ao usuario que insira um numero inteiro
+#\n pula a linha
+numero = int(input("Digite um numero inteiro:"))
+#Calcula o quadrado do numero
+quadrado = numero ** 2
+#Exibe o resultado
+print(quadrado)
+
+#Exercicio2
+#Programa que leia dois caracteres e imprima-os na tela da seguinte forma
+#O usuario digitou (caractere1) e (caractere2)
+
+caracter1=input('Digite um caracter:\n')
+caracter2=input('Digite outro caracter:\n')
+print(f'o usuario digitou {caracter1} e {caracter2}')
+print('O usuario digitou', caracter1, 'e', caracter2)
+
+
+#Exercicio 3
+# Programa para imprimir o sucessor e o antecessor de um número
+numero = int(input("Digite um número inteiro: "))
+antecessor = numero - 1
+sucessor = numero + 1
+
+print('O sucessor do numero',numero,'é',sucessor,'e o antecessor é',antecessor)
+
+# Exercicio4
+# Programa para calcular o perímetro e a área de um retângulo
+base = float(input("Digite a base do retângulo: "))
+altura = float(input("Digite a altura do retângulo: "))
+area = base * altura
+perimetro = 2 * (base + altura)
+print(altura)
+print(perimetro)
+
+#Exercicio5
+# Programa para calcular o valor de uma prestação em atraso
+valor = float(input('Digite o valor da prestação:'))
+taxa = float(input('Digite o valor da taxa:'))
+tempo = float(input('Digite o tempo em Atraso:'))
+
+print(f'O valor da nova prestacao é:',(valor+valor*taxa/100)*tempo)
+
+
+nome = 'Luydi' #texto obrigatorio aspas ou aspas duplas
+#variavel nome recebe Luydi
+idade = 33
+#variavel idade recebe 33
+anoNascimento = 1990
+#variavel anoNascimento
+curso = 'Python' #texto obrigatorio aspas ou aspas duplas
+#variavel curso recebe Python
+
+print('O nome da pessoa é:',nome)
+print('A idade da pessoa é:',idade)
+print('O ano de nascimento da pessoa é:',anoNascimento)
+print('O curso que a pessoa esta estudando é:',curso)
+
+
+texto= "2" #declaração de variavel string
+texto1= (2) #declaração de variavel do tipo string
+numero= 3 #declaração de variavel numerica, podendo ser Inteira ou Real
+numero1= int(3) #declaração de variavel numerica, do tipo inteiro
+numero2= float(3) #declaração de variavel numerica, do tipo Real
+print(texto)
+print(texto1)
+print(numero)
+print(numero1)
+print(numero2)
+
+#aqui temos as regras de somas
+n1= 4
+n2= 2
+#sempre temos que declarar a variavel
+#Operador de soma
+soma= n1+n2
+print(soma)
+#Operador de subtração
+subtracao = n1-n2
+print(subtracao)
+#Operador de multiplicação
+multiplicacao = n1*n2
+print (multiplicacao)
+#Operador de divisão
+divisao = n1 / n2
+print(divisao)
+
+nome  = 'Luydi'
+notas = float(3.5)
+media = int(7.0)
+
+subtracao = notas-media
+print(subtracao)
+
+salario = float(3600)
+gastos = float(2500)
+
+subtracao = salario-gastos
+print(subtracao)
+
+#Operador de divisao Inteira
+divisaoInteira = n1//n2
+
+#Operador de potencia
+potencia = n1** n2
+
+#Operador Mudulo
+restoDaDivisao = n1 % n2
+
+print(divisaoInteira)
+print(potencia)
+print(restoDaDivisao)
+
+
+
+#Atribui dados digitado pelo usuario e converte em Numero Inteiro
+numeroInteiro= int(input("Digite um numero Inteiro:"))
+
+#Atribui dados digitado pelo usuario e converte em Numero Decimal
+numeroReal= float(input("Digite um numero Decimal:"))
+
+#Atribui dados digitado pelo usuario e converte em Bool
+booleano= bool(input("Digite um valor Boleano:"))
+
+#Atribui dados digitado pelo usuario e converte em Texto
+string= str(input("Digite um texto:"))
+
+print(numeroInteiro)
+print(numeroReal)
+print(booleano)
+print(string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
