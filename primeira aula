@@ -674,3 +674,39 @@ if (reta1 + reta2 > reta3) and (reta1 + reta3 > reta2) and (reta2 + reta3 > reta
 else:
     print("As retas não podem formar um triângulo.")
 ```
+
+
+elif = mas de uma posibilidade  
+
+apenas uma extensao da estrutura if-else  
+sua forma geral pode ser escrita como sendo:
+
+Elif é sempre antes do Else = que seria uma parte que pode dar mas alternativas.
+
+match case 
+o que é 
+
+case1= domingo 
+case2= segunda 
+case3- terça 
+case4 quarta  
+
+ele é uma estrutura 
+
+case_: (print)("Nao tem")
+
+
+estudar mas o match case  
+ele pode ser associado ao if ou else  
+
+ou seja conseguimos criar uma estrutura condicional para o programa  
+try- tente 
+except - exessao varios tipos de exessao  
+ bloco match case é uma estrutura de controle de fluxo que permite comparar uma variável com diferentes valores ou 
+padrões de forma mais organizada e legível do que as tradicionais estruturas if/elif/else . Ele foi introduzido no Python 3.10 e é 
+especialmente útil quando temos muitos valores específicos para testar.
+
+O bloco match case é uma estrutura de controle de fluxo que permite comparar uma variável com diferentes valores ou padrões de forma mais 
+organizada e legível do que as tradicionais estruturas if/elif/else . Ele foi introduzido no Python 3.10 e é especialmente útil quando temos muitos valores específicos para testar.
+
+
