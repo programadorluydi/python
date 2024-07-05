@@ -709,4 +709,222 @@ especialmente útil quando temos muitos valores específicos para testar.
 O bloco match case é uma estrutura de controle de fluxo que permite comparar uma variável com diferentes valores ou padrões de forma mais 
 organizada e legível do que as tradicionais estruturas if/elif/else . Ele foi introduzido no Python 3.10 e é especialmente útil quando temos muitos valores específicos para testar.
 
+# Lê o valor da casa, o salário do comprador e a quantidade de anos para pagar
+valor_casa = float(input("Digite o valor da casa: R$ "))
+salario = float(input("Digite o salário do comprador: R$ "))
+anos = int(input("Em quantos anos deseja pagar: "))
+
+# Calcula o valor da prestação mensal
+prestacao_mensal = valor_casa / (anos * 12)
+
+# Calcula o máximo que pode ser pago mensalmente (30% do salário)
+max_prestacao = salario * 0.30
+
+# Verifica se a prestação mensal excede 30% do salário
+if prestacao_mensal <= max_prestacao:
+    print(f"Empréstimo aprovado! A prestação mensal será de R$ {prestacao_mensal:.2f}.")
+else:
+    print("Empréstimo negado! O valor da prestação mensal excede 30% do seu salário.")
+
+#####
+numero= int(input('Digite um numero inteiro:'))
+#Escolha a base de conversao
+print("[1]para numero binario")
+print("[2]para numero octal")
+print("[3]para numero hexadecimal")
+
+escolha= int(input("Sua Opção:"))
+
+
+# Converte o número de acordo com a escolha do usuário
+
+
+
+
+
+
+if escolha == 1:
+    print(f"{numero} convertido para binário é igual a {bin(numero)[2:]}")
+elif escolha == 2:
+    print(f"{numero} convertido para octal é igual a {oct(numero)[2:]}")
+elif escolha == 3:
+    print(f"{numero} convertido para hexadecimal é igual a {hex(numero)[2:]}")
+else:
+    print("Opção inválida.")
+
+#desafio38
+# Lê dois números inteiros do usuário
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+# Compara os números e exibe a mensagem correspondente
+if num1 > num2:
+    print("O primeiro valor é maior.")
+elif num2 > num1:
+    print("O segundo valor é maior.")
+else:
+    print("Não existe valor maior, os dois são iguais.")
+
+#desafio39
+# Lê o ano de nascimento do usuário
+ano_nascimento = int(input("Digite o ano de nascimento: "))
+
+# Calcula a idade
+ano_atual = 2024  # Pode ser ajustado conforme o ano atual
+idade = ano_nascimento - ano_atual
+
+# Verifica o status do alistamento
+if idade < 18:
+    print(f"Ainda faltam {18 - idade} anos para o alistamento.")
+elif idade == 18:
+    print("É hora de se alistar.")
+else:
+    print(f"Já passou {idade - 18} anos do tempo de alistamento.")
+
+#desafio 40
+# Lê as duas notas do aluno
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+
+# Calcula a média
+media = (nota1 + nota2) / 2
+
+# Verifica o status do aluno
+if media < 5.0:
+    print(f"Média {media:.1f}: REPROVADO")
+elif 5.0 <= media <= 6.9:
+    print(f"Média {media:.1f}: RECUPERAÇÃO")
+else:
+    print(f"Média {media:.1f}: APROVADO")
+
+#desafio 41
+# Lê o ano de nascimento do atleta
+ano_nascimento = int(input("Digite o ano de nascimento: "))
+
+# Calcula a idade
+ano_atual = 2024  # Pode ser ajustado conforme o ano atual
+idade = ano_atual - ano_nascimento
+
+# Verifica a categoria do atleta
+if idade <= 9:
+    categoria = "MIRIM"
+elif idade <= 14:
+    categoria = "INFANTIL"
+elif idade <= 19:
+    categoria = "JUNIOR"
+elif idade <= 24:
+    categoria = "SÊNIOR"
+else:
+    categoria = "MASTER"
+
+# Exibe a categoria do atleta
+print(f"Categoria: {categoria}")
+
+
+#desafio42
+
+# Lê o comprimento das três retas
+reta1 = float(input("Digite o comprimento da primeira reta: "))
+reta2 = float(input("Digite o comprimento da segunda reta: "))
+reta3 = float(input("Digite o comprimento da terceira reta: "))
+
+# Verifica se as retas podem formar um triângulo
+if (reta1 + reta2 > reta3) and (reta1 + reta3 > reta2) and (reta2 + reta3 > reta1):
+    print("As retas podem formar um triângulo.", end=" ")
+    if reta1 == reta2 == reta3:
+        print("Tipo: Equilátero")
+    elif reta1 == reta2 or reta1 == reta3 or reta2 == reta3:
+        print("Tipo: Isósceles")
+    else:
+        print("Tipo: Escaleno")
+else:
+    print("As retas não podem formar um triângulo.")
+
+#desafio43
+# Lê o peso e a altura do usuário
+peso = float(input("Digite o seu peso (Kg): "))
+altura = float(input("Digite a sua altura (m): "))
+
+# Calcula o IMC
+imc = peso / (altura ** 2)
+
+# Verifica o status do IMC
+if imc < 18.5:
+    status = "Abaixo do Peso"
+elif 18.5 <= imc < 25:
+    status = "Peso Ideal"
+elif 25 <= imc < 30:
+    status = "Sobrepeso"
+elif 30 <= imc < 40:
+    status = "Obesidade"
+else:
+    status = "Obesidade Mórbida"
+
+# Exibe o resultado
+print(f"IMC: {imc:.1f} - {status}")
+
+
+#desafio44
+# Lê o preço do produto
+preco = float(input("Digite o preço do produto: R$ "))
+
+# Lê a condição de pagamento
+print("Escolha a condição de pagamento:")
+print("[1] à vista dinheiro/cheque")
+print("[2] à vista no cartão")
+print("[3] em até 2x no cartão")
+print("[4] 3x ou mais no cartão")
+condicao = int(input("Sua opção: "))
+
+# Calcula o valor a ser pago de acordo com a condição de pagamento
+if condicao == 1:
+    total = preco * 0.90
+elif condicao == 2:
+    total = preco * 0.95
+elif condicao == 3:
+    total = preco
+    parcela = total / 2
+    print(f"Sua compra será parcelada em 2x de R$ {parcela:.2f} sem juros.")
+elif condicao == 4:
+    total = preco * 1.20
+    total_parcelas = int(input("Quantas parcelas? "))
+    parcela = total / total_parcelas
+    print(f"Sua compra será parcelada em {total_parcelas}x de R$ {parcela:.2f} com juros.")
+else:
+    total = 0
+    print("Opção inválida de pagamento.")
+
+# Exibe o valor total a ser pago
+if total != 0:
+    print(f"Sua compra de R$ {preco:.2f} vai custar R$ {total:.2f} no final.")
+
+#exercicio45
+
+import random
+
+# Opções do jogo
+itens = ('Pedra', 'Papel', 'Tesoura')
+
+# Computador escolhe uma opção
+computador = random.randint(0, 2)
+
+# Usuário escolhe uma opção
+print("Suas opções:")
+print("[0] Pedra")
+print("[1] Papel")
+print("[2] Tesoura")
+usuario = int(input("Qual é a sua jogada? "))
+
+# Exibe as escolhas
+print(f"Computador escolheu {itens[computador]}")
+print(f"Jogador escolheu {itens[usuario]}")
+
+# Verifica o resultado do jogo
+if usuario == computador:
+    print("EMPATE!")
+elif (usuario == 0 and computador == 2) or (usuario == 1 and computador == 0) or (usuario == 2 and computador == 1):
+    print("JOGADOR VENCE!")
+else:
+    print("COMPUTADOR VENCE!")
+
 
